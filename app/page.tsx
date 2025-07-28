@@ -7,10 +7,10 @@ export default function Page() {
       <h1>Landing Page</h1>
       <ThemeToggle />
       <div className="flex gap-4 justify-center">
-        <Link href="/login" className="border-2 px-2">
+        <Link href="/auth/login" className="border-2 px-2">
           Login
         </Link>
-        <Link href="/sign-up" className="border-2 px-2">
+        <Link href="/auth/sign-up" className="border-2 px-2">
           Sign Up
         </Link>
       </div>

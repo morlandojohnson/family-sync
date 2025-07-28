@@ -72,7 +72,7 @@ const items = [
   },
   {
     title: "Log Out",
-    url: "#",
+    url: "/auth/login",
     icon: LogOut,
   },
 ];
